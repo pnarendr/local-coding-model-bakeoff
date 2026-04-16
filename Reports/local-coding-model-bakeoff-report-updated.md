@@ -107,21 +107,6 @@ What it tested:
 
 **Role in the suite:** strongest practical debugging discriminator in the final suite
 
----
-
-## Important note on a discarded task
-
-An earlier task, **15193**, was removed from the final benchmark story.
-
-Why:
-- it had been composed by a local model
-- upon closer review, the challenge itself was not trustworthy enough
-- the model outputs often solved a plausible but incorrect subsystem
-- that made it weak as a grounded comparison point
-
-Rather than force confidence from questionable data, I threw it out and replaced it with **15273**, which produced much more meaningful debugging evidence.
-
-That was the right call.
 
 ---
 
